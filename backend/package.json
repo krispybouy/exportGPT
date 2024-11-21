@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@huggingface/transformers": "^3.0.2",
+    "@reduxjs/toolkit": "^2.3.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-proxy-middleware": "^3.0.3",
+    "mongoose": "^8.8.2",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "sentiment": "^5.0.2",
+    "tesseract.js": "^5.1.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "concurrently \"npm run start\" \"npm run start-python\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
