@@ -3,19 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Sidebar from "./Sidebar";  // Assuming Sidebar contains Link components for navigation
 import "./App.css"
 import MultilingualExportChat from "./ChatInterface";
-import ReactDOM from 'react-dom';
-
 
 import ExportDocGenerator from "./DocumentationProcessor";
 import  MarketIntelligence from "./MarketOpp";
 import AmazonGlobal from './AmazonGlobal'; 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
 const App = () => {
 
