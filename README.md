@@ -1,4 +1,4 @@
-# Multilingual Export Assistance Platform
+# ExportGPT
 
 ## Overview
 This project is a multilingual export assistance platform designed to simplify the export process. It features:
