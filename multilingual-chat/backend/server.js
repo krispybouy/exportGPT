@@ -10,9 +10,16 @@ const PORT = process.env.PORT || 5000;
 // Initialize free AI client
 const herc = new Hercai();
 
+const allowedOrigins = ['https://deekshakashyap16.github.io', 'http://localhost:3000'];
+
 app.use(cors({
-    origin: 'http://localhost:3000',
-    methods: ['GET', 'POST']
+  origin: function(origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
 }));
 app.use(express.json());
 
