@@ -219,6 +219,7 @@ const FormFieldExtractor = () => {
               className="hidden"
               id="file-upload"
               accept=".txt,.doc,.docx,.pdf"
+              disabled={processing}
             />
             <label htmlFor="file-upload" className="upload-button">
               <Upload size={20} style={{ display: 'inline', marginRight: '8px' }} />
@@ -279,6 +280,17 @@ const FormFieldExtractor = () => {
           </button>
         </div>
       )}
+      {files.length > 0 && !processing && (
+              <div style={{ marginTop: '16px' }}>
+                <h3 style={{ 
+                  fontSize: '14px',
+                  fontWeight: '500',
+                  marginBottom: '8px'
+                }}>
+                  Uploaded Files ({files.length}):
+                </h3>
+              </div>
+            )}
     </div>
   );
 };
