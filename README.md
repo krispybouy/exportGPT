@@ -48,19 +48,19 @@ This project is a multilingual export assistance platform designed to simplify t
 1. Clone the repository
 ```bash
 git clone https://github.com/deekshakashyap16/ExportGPT/
-cd export-gpt
+cd multilingual-chat
 ```
 
 2. Frontend Setup
 ```bash
-cd export-gpt
+cd multilingual-chat
 npm install
 npm start
 ```
 
 3. Backend Setup
 ```bash
-cd export-gpt/backend
+cd multilingual-chat/backend
 npm install
 node server.js
 ```
@@ -82,11 +82,11 @@ Amazon Global Selling integration is a placeholder for future implementation.
 
 ```bash
 # Run frontend tests
-cd export-gpt
+cd multilingual-chat
 npm test
 
 # Run backend tests
-cd export-gpt/backend
+cd multilingual-chat/backend
 npm test
 ```
 
