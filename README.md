@@ -47,7 +47,7 @@ This project is a multilingual export assistance platform designed to simplify t
 
 1. Clone the repository
 ```bash
-git clone https://github.com/deekshakashyap16/ExportGPT/
+git clone https://github.com/krispybouy/ExportGPT/
 cd multilingual-chat
 ```
 
