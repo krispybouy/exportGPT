@@ -41,6 +41,7 @@ prac/
 *.workspace
 *.txt
 
+/favicon.ico
 # Ignore specific files
 demo1.txt
 hello.txt
